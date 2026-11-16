@@ -1,0 +1,7 @@
+{
+  "_help": "Owner fills these (they stay in this private repo). Leave null to judge against the account's weekly medians.",
+  "cpa_target": null,
+  "roas_breakeven": null,
+  "min_spend_to_judge": null,
+  "benchmarks": {"hook_rate": 0.30, "hold_rate": 0.12, "ctr": 0.01, "frequency": 1.75, "cvr": 0.02}
+}
