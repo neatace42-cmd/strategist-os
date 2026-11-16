@@ -1,0 +1,60 @@
+{
+  "$comment": "Committed factory config. outputStyle switches on the Parker voice layer at .claude/output-styles/parker.md — the same system-prompt layer every shipped brand brain gets — so sessions in this repo talk plain and warm too. Personal overrides live in .claude/settings.local.json (gitignored). permissions.allow lets a cloud routine (which starts in a checkout of this factory) run the key, clone and save steps of scripts/cloud-run-git.py without auto mode's safety check judging them; narrow rules like these stay in effect in auto mode, and nothing else is allowed (system/brain-sync.md).",
+  "outputStyle": "Parker",
+  "permissions": {
+    "allow": [
+      "Bash(scripts/cloud-run-git.py key *)",
+      "Bash(scripts/cloud-run-git.py clone *)",
+      "Bash(python3 scripts/cloud-run-git.py key *)",
+      "Bash(python3 scripts/cloud-run-git.py clone *)",
+      "Bash(scripts/cloud-run-git.py save *)",
+      "Bash(python3 scripts/cloud-run-git.py save *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import subprocess, runpy; r = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True); p = Path(r.stdout.strip()) / 'scripts/usage-log.py'; runpy.run_path(str(p), run_name='__main__') if r.returncode == 0 and p.is_file() else None\" hook --runtime claude",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import subprocess, runpy; r = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True); p = Path(r.stdout.strip()) / 'scripts/usage-log.py'; runpy.run_path(str(p), run_name='__main__') if r.returncode == 0 and p.is_file() else None\" hook --runtime claude",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import subprocess, runpy; r = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True); p = Path(r.stdout.strip()) / 'scripts/usage-log.py'; runpy.run_path(str(p), run_name='__main__') if r.returncode == 0 and p.is_file() else None\" hook --runtime claude",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"from pathlib import Path; import subprocess, runpy; r = subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True); p = Path(r.stdout.strip()) / 'scripts/usage-log.py'; runpy.run_path(str(p), run_name='__main__') if r.returncode == 0 and p.is_file() else None\" hook --runtime claude",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

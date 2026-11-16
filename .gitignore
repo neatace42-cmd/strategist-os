@@ -1,0 +1,9 @@
+# private exports can be large or sensitive; keep only templates and samples in git
+data/meta-exports/*.csv
+!data/meta-exports/_TEMPLATE.csv
+!data/meta-exports/SAMPLE_*.csv
+data/reviews/*.csv
+!data/reviews/_TEMPLATE.csv
+.DS_Store
+__pycache__/
+*.pyc
