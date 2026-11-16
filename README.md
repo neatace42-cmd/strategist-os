@@ -4,7 +4,8 @@ My personal creative-strategy workspace for **My Nutraessence** (pumpkin seed oi
 It takes research all the way to a **finished ad brief**. Production is not done here: briefs go to NutraEssence Studio,
 which is a separate app and repo.
 
-> **Status:** Phase 0 (foundation) is built and waiting for my approval. See `running-notes/build-status.md`.
+> **Status:** all 5 phases built on 2026-11-16 (overnight). **Start with `START-HERE.md`.** Everything is a proposal
+> until I approve it.
 > **Mode:** a personal test. `reference/parker-brain/` is third-party, noncommercial-licensed material kept only for
 > study (see `reference/README.md`). Anything that ends up in real ads is written in my own words.
 
@@ -42,6 +43,16 @@ research ─► personas + customer voice ─► strategy (roadmap) ─► angle
 2. **Strategy**: the roadmap
 3. **Ideas to briefs**: idea bank, evaluation, sprint plan, briefs
 4. **The loop**: weekly report, iterations, hook audit, testing log
+
+## Routines (say the words, Claude follows the skill)
+| Say | Skill |
+|---|---|
+| "weekly report" (after dropping the CSV) | `.claude/skills/weekly-report` (runs `tools/weekly_report.py`) |
+| "iterate <ad name>" | `.claude/skills/iterate-ad` |
+| "competitor watch" (every 2 weeks) | `.claude/skills/competitor-watch` |
+| "idea hunt" (weekly) | `.claude/skills/idea-hunt` |
+| "brief angle A01" | `.claude/skills/angle-to-brief` |
+| "log / close test" | `.claude/skills/log-test` |
 
 ## Using it
 

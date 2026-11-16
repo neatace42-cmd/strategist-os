@@ -15,3 +15,7 @@
 | Fresh Reddit/forum access: ScaleBot trial cancelled; reddit.com and connect.mayoclinic.org blocked in this session's network | The VoC bank cannot be refreshed or checked at source until one of these works | Owner |
 | Verify the 12 `[F2]`/`[VERIFY-G]` quotes (research §5.11) at source | They are in the VoC files but flagged "verify before ad use" | Owner / Claude |
 | Voice from women before they start a GLP-1 (P6) | Owner-priority persona has 0 pre-start quotes | Claude (next research pass) |
+| Which landing page GLP-1 ads go to (does a GLP-1 advertorial exist?) | The mechanism needs a page that continues the story; a mismatch would make round-1 CVR read low for the wrong reason | Owner |
+| Is UGC live in the office Studio? (Studio repo shows UGC as "soon") | Concept 1 is UGC; fallback is a one-character drama | Owner |
+| AI-people policy approval (disclose; no results from AI people) | Every round-1 video uses AI characters | Owner |
+| May GLP-1 ads use the "45,000+ customers" badge? | Not GLP-1-specific; left out of round 1 | Owner |

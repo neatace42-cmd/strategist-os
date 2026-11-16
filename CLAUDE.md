@@ -11,6 +11,10 @@ role). Brand: **My Nutraessence**, 2,000 mg pumpkin seed oil + 200 mg saw palmet
   production happens in the Studio.
 - **Stop at the brief.** No image or video generation here.
 
+## Routines and tools
+Skills in `.claude/skills/` (weekly-report, iterate-ad, competitor-watch, idea-hunt, angle-to-brief, log-test).
+`tools/weekly_report.py` builds the weekly report from a CSV (standard-library Python; targets in `brand/targets.json`).
+
 ## Where things are
 See `README.md` for the folder map. Build progress: `running-notes/build-status.md`. Decisions:
 `running-notes/decisions.md`. Unknowns: `running-notes/missing-context.md`.
