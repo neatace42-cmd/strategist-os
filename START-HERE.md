@@ -22,14 +22,14 @@ Everything was built overnight. It is all **proposed**: nothing is decided until
 
 ## 3. Decisions only you can make
 1. Approve or change: diagnosis, 3 priorities, kill list, round 1 (`strategy/roadmap.md`).
-2. **Is Bloom & Bond linked to us?** (Hold the native concept until answered.)
+2. ~~Is Bloom & Bond linked to us?~~ ✅ Answered 2026-11-17: no. It is a separate brand, now our closest direct rival (watched every 2 weeks).
 3. AI people in ads: always disclosed, never claiming results. OK?
 4. Which landing page / advertorial do GLP-1 ads go to?
 5. Drug-word risk level + ad-account flag history (flagged lines are listed in the briefs).
 6. Fill `brand/targets.json` (CPA target, break-even ROAS). It stays private.
 7. Approve the cuts (A06, A08, A15) and parks (A19, A20, A25, A28) in `idea-bank/evaluation-2026-11-16.md`.
 8. Should P4 (peri/meno) become an overlay and P5 (diabetic) proof-only?
-9. UGC is live in the Studio now (done in your other chat), so the UGC brief can go straight in.
+9. ✅ UGC is live in the Studio: the UGC brief can go straight in.
 
 ## 4. Then, every week
 - Monday: export last week at ad level → `data/meta-exports/` → tell Claude "weekly report".
@@ -37,7 +37,7 @@ Everything was built overnight. It is all **proposed**: nothing is decided until
 - Learning: work through `playbook/learning-path.md`, one doc a day, and write notes in `playbook/my-notes.md`.
 
 ## Limits to know
-- Customer words come from your research only (ScaleBot trial cancelled; reddit.com blocked in that session).
-  Your own reviews export would make everything sharper.
+- Customer words come from your research only. No ScaleBot (owner decision). Your own reviews export (Shopify /
+  Amazon) would make everything sharper.
 - Trendtrack found no Nutrafol/Wellbel ads, so those snapshots rely on Atria only. Credits used: Trendtrack 89 units
   (~8,465 of 10,000 left); Atria 6 calls (searches count toward the monthly allowance). See `running-notes/connector-log.md`.

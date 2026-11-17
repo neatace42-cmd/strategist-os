@@ -1,6 +1,6 @@
 ---
 name: competitor-watch
-description: "Every-two-weeks competitor watch for Balmbare, Nutrafol, MDhair and Wellbel using Trendtrack and Atria (modest credit use, every call logged). Use when the owner says competitor watch, what are competitors running, or new competitor ads."
+description: "Every-two-weeks competitor watch for Balmbare, Nutrafol, MDhair, Wellbel and Bloom & Bond using Trendtrack and Atria (modest credit use, every call logged). Use when the owner says competitor watch, what are competitors running, or new competitor ads."
 ---
 
 # Competitor watch (every 2 weeks)

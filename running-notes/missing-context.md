@@ -3,7 +3,7 @@
 |---|---|---|
 | Real ad results CSV (Dolphin / Ads Manager) | Weekly report, iterations and win rates run on a sample until then | Owner |
 | CPA target and break-even ROAS (can stay as green/amber/red bands) | Lets reports call winners automatically | Owner |
-| Customer review export (Shopify / Amazon) | Our own reviews beat Reddit and competitor reviews for customer voice | Owner |
+| Customer review export (Shopify / Amazon) — the only review source now (no ScaleBot) | Our own reviews beat Reddit and competitor reviews for customer voice | Owner |
 | Ad-account flag history | Sets how careful copy must be with drug names | Owner |
 | Drug-name risk tolerance | Category words only in ads (default) vs brand names | Owner |
 | Subscription discount % | Offer framing in BOF briefs | Owner |

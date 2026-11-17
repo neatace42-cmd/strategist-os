@@ -40,7 +40,7 @@ Biggest real competitor (research): **"do nothing / wait it out"**. Not trackabl
 
 ## 5. Data access
 - Ad results: ☐ Dolphin CSV or Meta Ads Manager CSV? How often? (format in `data/README.md`)
-- Reviews: ☐ Shopify (via ScaleBot), Amazon, or a CSV you export?
+- Reviews: ✅ our own CSV export (Shopify / Amazon); no ScaleBot (owner, 2026-11-17).
 - Ad naming: adopt `playbook/naming-convention.md`? ☐
 - Ad-account flag history (any rejected ads or warnings): ☐ (research §0.4 asks for this too)
 - Drug-name risk tolerance: ☐ category words only in ads (recommended), or brand names allowed?

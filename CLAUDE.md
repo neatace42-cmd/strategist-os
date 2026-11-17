@@ -41,8 +41,8 @@ See `README.md` for the folder map. Build progress: `running-notes/build-status.
 |---|---|
 | Own ad results | CSV export from Dolphin or Meta Ads Manager in `data/meta-exports/` (format: `data/README.md`) |
 | Competitor ads | Trendtrack (scaling ads, transcripts, TikTok library) and Atria (ad library, transcripts) |
-| Reviews | CSV in `data/reviews/`, or ScaleBot Shopify review import |
-| Reddit / community | ScaleBot Reddit evidence, web search |
+| Reviews | CSV export (Shopify / Amazon) in `data/reviews/` |
+| Reddit / community | Web search (quote only what was actually read, with the link) |
 | Video breakdowns | Atria or Higgsfield video analysis |
 Connector calls that cost credits: say the cost first and wait for the owner's OK.
 
